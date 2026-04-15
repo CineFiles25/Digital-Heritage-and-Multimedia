@@ -1,2 +1,0 @@
-# digital-heritage-and-multimedia
-
