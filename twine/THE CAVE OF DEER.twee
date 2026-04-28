@@ -1,0 +1,3155 @@
+:: StoryTitle
+THE CAVE OF DEER
+
+
+:: StoryData
+{
+  "ifid": "EED3DE33-AEF3-44DD-B31D-6D36C798818B",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Intro",
+  "zoom": 1
+}
+
+
+:: A ritual of fertility {"position":"25,450","size":"100,100"}
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/巫术.mp4" type="video/mp4">
+</video>
+
+
+
+
+<span class="glow-strong glow-breath">Close your eyes for a moment. Press your fingers lightly on your eyelids. Do you see shapes? The painters saw them too.</span>
+
+
+
+[[Meet the devotee]] 
+
+
+:: A ritual of healing {"position":"150,575","size":"100,100"}
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/巫术.mp4" type="video/mp4">
+</video>
+
+
+
+
+<span class="glow-strong glow-breath">Close your eyes for a moment. Press your fingers lightly on your eyelids. Do you see shapes? The painters saw them too.</span>
+
+
+
+[[Meet the devotee]] 
+
+
+:: A ritual of hunting {"position":"25,325","size":"100,100"}
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/猎鹿.mp4" type="video/mp4">
+</video>
+
+
+
+<span class="glow-strong glow-breath">Close your eyes for a moment. Press your fingers lightly on your eyelids. Do you see shapes? The painters saw them too.</span>
+
+
+
+[[Meet the devotee]] 
+
+
+:: Abundance {"position":"975,1400","size":"100,100"}
+<div class="symbol5">
+<p class="whisper">release the resonance.....</p>
+<div class="poetic">
+<span class="glow">You do not move.</span>
+The shaman begins.
+
+
+The gesture is slow,
+but firm.
+
+Repeated,
+again and again.
+
+
+<span class="glow-breath">Hands over the object you brought.</span>
+
+Breath steady.
+
+<span class="glow-breath">Rhythm building.</span>
+
+
+The cave responds.
+
+
+<span class="whisper">Not with sound.</span>
+
+<span class="glow">With movement.</span>
+
+
+<span class="glow-breath">The walls begin to shift.</span>
+
+
+Subtly at first.
+
+
+Then —
+
+
+<span class="glow">something appears.</span>
+
+
+<span class="whisper">Not patterns this time.</span>
+
+<span class="whisper">Not spirals.</span>
+
+
+<span class="glow">Images.</span>
+
+
+A body standing,
+unbroken.
+
+A field opening,
+green and full.
+
+A path extending,
+clear,
+without danger.
+
+
+They do not stay.
+
+They overlap.
+
+They dissolve into one another.
+
+
+Your request —
+reflected,
+refracted,
+transformed.
+
+
+You do not know if it is a promise.
+
+<span class="whisper">Or a possibility.</span>
+
+
+<span class="glow-strong glow-breath">But it is enough.</span>
+
+
+The light softens.
+
+The movement fades.
+
+
+The cave returns.
+
+
+The shaman lowers their hands.
+
+
+They look at you.
+
+
+Then —
+a small gesture.
+
+<span class="glow">A bow of the head.</span>
+
+
+<span class="glow-strong glow-breath">It is accepted.</span>
+
+
+You feel it
+before you understand it.
+
+
+The place is quiet again.
+
+
+On the wall,
+an empty space.
+
+
+<span class="glow-strong glow-breath">Waiting.</span>
+
+</div>
+
+[[Reflect on the whole journey]]
+
+[[Return to the entrance->Approach the paintings]]
+</div>
+
+
+
+:: Approach the cave {"position":"675,150","size":"100,100"}
+
+You stand at the entrance.
+
+The light fades behind you.
+Darkness waits ahead.
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/选角色.mp4" type="video/mp4">
+</video>
+ You walked in.
+ 
+ [[Painting 1]]
+ [[Painting 2]]
+ [[Painting 3]]
+ [[Painting 4]]
+
+
+:: Approach the paintings {"position":"675,650","size":"100,100"}
+
+
+
+
+
+
+At the end of the <span style="color:#ff4d4d; text-shadow: 0 0 6px #ff0000;">Red Hall</span> the paths diverge. Each character is called in a different way toward their own destiny in the cave.
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/四个角色.mp4" type="video/mp4">
+</video>
+A question rises — not spoken, but felt:
+
+
+Who are you in this place?
+
+
+
+
+[[Shaman]]
+[[Warrior]]
+[[Devotee I]]
+[[Devotee II]]
+[[Dancer]]
+
+
+:: Ask shaman for healing {"position":"475,1350","size":"100,100"}
+<div class="handprint2">
+<p class="whisper">it's so silent......</p>
+<div class="poetic">
+<span class="glow">You step inside.</span>
+
+
+<span class="whisper">Not as a guardian.</span>
+
+<span class="whisper">Not this time.</span>
+
+
+<span class="glow">The wound burns.</span>
+
+
+Each step is slower than the last.
+
+The cave no longer feels like something to defend.
+
+<span class="whisper">It feels… distant.</span>
+
+
+The fire behind you fades.
+
+Another light appears ahead —
+lower,
+quieter.
+
+
+You reach a chamber.
+
+
+<span class="glow-breath">A figure is already there.</span>
+
+
+Still.
+
+Waiting.
+
+
+<span class="glow">The shaman.</span>
+
+
+They do not ask.
+
+They do not question.
+
+<span class="whisper">They see.</span>
+
+
+You sit.
+
+Or perhaps you collapse.
+
+
+The shaman moves.
+
+
+Hands over dried plants,
+crushing them slowly,
+releasing a sharp, bitter scent.
+
+
+Powder mixes with moisture.
+
+Dark paste.
+
+
+Their hands approach your wound.
+
+<span class="glow">Firm.</span>
+
+<span class="glow">Precise.</span>
+
+
+<span class="glow">Pain.</span>
+
+
+<span class="glow-breath">Then warmth.</span>
+
+
+The cave grows softer.
+
+
+The walls begin to shift.
+
+Only slightly.
+
+
+A line moves.
+
+A deer runs —
+but slower than before.
+
+A figure turns.
+
+
+<span class="whisper">Not a vision.</span>
+
+<span class="whisper">Not fully.</span>
+
+
+Something between body and image.
+
+
+Your breathing steadies.
+
+The pain loosens its grip.
+
+
+The shaman says nothing.
+
+But their gestures are enough.
+
+
+<span class="glow">Healing is not separate from meaning.</span>
+
+
+What touches the body
+touches something else.
+
+
+The movement fades.
+
+
+The walls return.
+
+
+The cave is still.
+
+
+You remain.
+
+
+<span class="glow-strong glow-breath">Changed.</span>
+
+</div>
+
+[[Continue]]
+
+</div>
+
+
+:: Ceramic Offering {"position":"250,850","size":"100,100"}
+Price is taken now....
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/巫术1.mp4" type="video/mp4">
+</video>
+
+
+
+
+
+
+[[Go to Sanctuary for rituals]] 
+
+
+:: Continue {"position":"200,1425","size":"100,100"}
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/山洞2.mp4" type="video/mp4">
+</video>
+<p class="whisper">You have a sense of belonging.....</p>
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/鹿3.mp4" type="video/mp4">
+</video>
+<div class="poetic">
+You look up at the ceiling of the cave.
+
+
+Symbols surround you.
+
+
+Not above you.
+
+Not around you.
+
+
+<span class="glow-breath">With you.</span>
+
+
+A sense of the sacred gathers slowly.
+
+
+You feel yourself becoming part
+of something larger.
+
+
+Not swallowed.
+
+Not lost.
+
+
+<span class="glow">Held.</span>
+
+
+You are entering another world.
+
+
+And somehow,
+
+
+<span class="glow-strong glow-breath">you belong to it.</span>
+
+
+The silence is no longer empty.
+
+
+<span class="glow-strong glow-breath">It is peaceful.</span>
+
+</div>
+
+[[Reflect on the whole journey]]
+
+
+[[Return to the entrance->Approach the paintings]]
+
+</div>
+
+
+:: Dancer {"position":"900,950","size":"100,100"}
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/开头3.mp4" type="video/mp4">
+</video>
+<p class="whisper">It's an inevitability......</p>
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/巫术.mp4" type="video/mp4">
+</video>
+<div class="poetic">
+You do not arrive here by choice.
+
+
+<span class="glow">You are already inside.</span>
+
+
+The space is circular.
+
+Closed.
+
+The walls surround you.
+
+
+Figures run along them.
+
+Six.
+
+Repeating.
+
+Endless.
+
+
+<span class="whisper">At first, they are still.</span>
+
+
+Then —
+
+
+<span class="glow-breath">a rhythm.</span>
+
+
+Low.
+
+Distant.
+
+But steady.
+
+
+The figures respond.
+
+
+A slight shift.
+
+A repetition that was not there before.
+
+
+<span class="glow">You feel it.</span>
+
+
+<span class="whisper">Not in your mind.</span>
+
+
+<span class="glow-strong glow-breath">In your body.</span>
+
+
+Your breathing adjusts.
+
+Your stance changes.
+
+
+You are not observing.
+
+
+<span class="glow">You are being aligned.</span>
+
+
+The centre of the room draws you.
+
+
+You look.
+
+
+And hold.
+
+
+<span class="glow-breath">The rhythm deepens.</span>
+
+
+The circle closes.
+
+
+<span class="glow-strong glow-breath">You step inside.</span>
+
+</div>
+
+[[Enter the movement]]
+
+</div>
+
+
+:: Devotee I {"position":"600,950","size":"100,100"}
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/开头3.mp4" type="video/mp4">
+</video>
+<p class="whisper">quiet focused world....</p>
+
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/山洞2.mp4" type="video/mp4">
+</video>
+
+<div class="poetic">
+
+You move slowly along the wall.
+
+
+<span class="whisper">Not looking for meaning.</span>
+
+<span class="glow">Looking for someone.</span>
+
+
+The figures are everywhere.
+
+Hunters,
+bodies in motion,
+animals that never stop running.
+
+
+<span class="glow-breath">Hands.</span>
+
+<span class="glow">So many hands.</span>
+
+
+They do not appear all at once.
+
+<span class="whisper">Only where you look.</span>
+
+
+A figure emerges.
+
+Then fades.
+
+Another.
+
+
+Different,
+but familiar in a way you cannot explain.
+
+
+You were told:
+
+
+<span class="glow">They are still here.</span>
+
+
+Not as bodies.
+
+<span class="whisper">As traces.</span>
+
+
+You pause.
+
+
+<span class="glow-breath">Something holds your gaze.</span>
+
+
+Not clearer than the others.
+
+Not brighter.
+
+
+<span class="glow-strong glow-breath">But closer.</span>
+
+
+You do not know why.
+
+You do not need to.
+
+
+<span class="glow-strong glow-breath">You recognise it.</span>
+
+
+This one.
+
+</div>
+
+[[This is the one]]
+
+</div>
+
+
+:: Devotee II {"position":"775,975","size":"100,100"}
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/开头3.mp4" type="video/mp4">
+</video>
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/巫术3.mp4" type="video/mp4">
+</video>
+<p class="whisper">It's getting intensive now....</p>
+<div class="poetic">
+You have travelled far to reach this place.
+
+
+<span class="glow">The cave is not empty.</span>
+
+<span class="glow-breath">It is waiting.</span>
+
+
+Before you,
+a small recess in the rock.
+
+Objects lie on the ground.
+
+
+<span class="whisper">Not arranged.</span>
+
+<span class="whisper">Not displayed.</span>
+
+Placed.
+
+
+As if others have come before you.
+
+
+<span class="glow-breath">You kneel.</span>
+
+
+The light is low,
+but each object catches it differently.
+
+
+Clay,
+marked with repeating patterns.
+
+A shaped figure,
+almost human.
+
+A dark stone,
+sharp,
+unfamiliar to this place.
+
+Red powder,
+deep as blood.
+
+
+You do not need to be told.
+
+
+<span class="glow-strong glow-breath">Each one asks something of you.</span>
+
+
+<span class="glow">What you bring</span>
+is what you are willing to give.
+
+</div>
+
+[[Take the marked clay->Pintadera]]
+
+[[Take the human-shaped vessel->Ceramic Offering]]
+
+[[Take the black stone->Obsidian Offering]]
+
+[[Take the red ochre->Red Ochre]]
+
+</div>
+
+
+:: Drive them back by force {"position":"425,1200","size":"100,100"}
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/巫术1.mp4" type="video/mp4">
+</video>
+
+
+
+You have a fight with them and get hurt.
+
+
+
+
+[[Ask shaman for healing]] 
+
+
+:: Enter the experience {"position":"650,25","size":"100,100"}
+
+
+
+You open your eyes.
+
+You are no longer in the room.
+
+The sea stretches behind you.
+The sky burns with a deep orange light.
+
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/夕阳洞.mp4" type="video/mp4">
+</video>
+
+The cave stands before you.
+
+Waiting.
+
+[[Approach the cave]]
+
+
+:: Enter the movement {"position":"1100,1025","size":"100,100"}
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/幻视.mp4" type="video/mp4">
+</video>
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/巫术3.mp4" type="video/mp4">
+</video>
+<p class="whisper">You become a synchrony surrender........</p>
+<div class="poetic">
+The rhythm continues.
+
+
+It does not stop when you move.
+
+
+<span class="glow">It moves with you.</span>
+
+
+The corridor narrows.
+
+The sound becomes clearer.
+
+
+Layered now —
+steps,
+breath,
+something like a voice.
+
+
+<span class="glow-breath">The shaman appears.</span>
+
+
+They do not react to your presence.
+
+They do not question it.
+
+
+They extend their hand.
+
+
+A branch.
+
+Dry.
+
+Light.
+
+
+<span class="glow">You take it.</span>
+
+
+<span class="glow-strong glow-breath">"Your body will open the way."</span>
+
+
+The words do not echo.
+
+They settle.
+
+
+The shaman turns.
+
+You follow.
+
+
+<span class="whisper">Not by decision.</span>
+
+
+<span class="glow">By rhythm.</span>
+
+
+Step.
+
+Step.
+
+Step.
+
+
+The walls begin to blur
+when you fall out of time.
+
+
+Then sharpen again
+when you return.
+
+
+You do not lead.
+
+You do not resist.
+
+
+<span class="glow-strong glow-breath">You align.</span>
+
+</div>
+
+[[Experience the dance]]
+
+</div>
+
+
+:: Enter the rite {"position":"550,1475","size":"100,100"}
+<p class="whisper">quite world....</p>
+<div class="handprint2">
+<div class="poetic">
+
+<span class="glow">You enter the Sanctuary.</span>
+
+
+The space is still.
+
+Larger than before,
+but quieter.
+
+
+The walls surround you.
+
+Figures remain where they were.
+
+Unmoving.
+
+Silent.
+
+
+<span class="whisper">Except one.</span>
+
+
+<span class="glow-breath">The one you chose.</span>
+
+
+At first,
+nothing happens.
+
+
+Then —
+
+
+<span class="glow">a shift.</span>
+
+
+Not a step.
+
+Not a gesture.
+
+
+A change in presence.
+
+
+The line softens.
+
+<span class="glow-breath">The form breathes.</span>
+
+
+The figure moves.
+
+
+Slowly.
+
+
+<span class="whisper">Not as a body moves.</span>
+
+As a drawing moves —
+along its own lines,
+within its own limits.
+
+
+You do not hear words.
+
+
+You do not need to.
+
+
+<span class="glow">The movement is enough.</span>
+
+
+A hand raised.
+
+A turn of the head.
+
+A repetition of a gesture
+you have seen before.
+
+
+Something is being said.
+
+
+<span class="whisper">Not clearly.</span>
+
+<span class="whisper">Not completely.</span>
+
+
+But directly.
+
+
+<span class="glow-strong glow-breath">To you.</span>
+
+
+You understand
+without knowing how.
+
+
+<span class="glow">Memory is not behind you.</span>
+
+<span class="glow-strong glow-breath">It is here.</span>
+
+
+The movement slows.
+
+
+The figure returns.
+
+
+Line by line,
+still again.
+
+
+The wall holds it.
+
+
+As it always has.
+
+
+Silence.
+
+
+You remain.
+
+
+The shaman is beside you.
+
+
+They do not speak.
+
+
+They point.
+
+
+A place on the wall.
+
+
+Empty.
+
+
+<span class="glow-strong glow-breath">Waiting.</span>
+
+</div>
+
+[[Reflect on the whole journey]]
+
+[[Return to the entrance->Approach the paintings]]
+</div>
+
+
+
+:: Experience the dance {"position":"1175,1175","size":"100,100"}
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/幻视.mp4" type="video/mp4">
+</video>
+<p class="whisper">Moment of loss of self....</p>\
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/巫术1.mp4" type="video/mp4">
+</video>
+<div class="poetic">
+
+The rhythm does not stop.
+
+
+<span class="glow">It grows.</span>
+
+
+Faster.
+
+Closer.
+
+<span class="glow-breath">Inside you.</span>
+
+
+Your steps are no longer yours.
+
+They continue
+even when you do not decide.
+
+
+<span class="glow">The walls respond.</span>
+
+
+Figures multiply.
+
+Six become many.
+
+Movement overlaps movement.
+
+
+There is no centre anymore.
+
+<span class="glow-breath">Only repetition.</span>
+
+
+You turn.
+
+<span class="whisper">Or something turns you.</span>
+
+
+The lines on the wall begin to extend.
+
+Toward you.
+
+Around you.
+
+
+They do not stay on the surface.
+
+
+<span class="glow">They enter.</span>
+
+
+Your arms repeat their shape.
+
+Your body follows their curve.
+
+
+You are no longer matching the rhythm.
+
+<span class="glow-strong glow-breath">You are inside it.</span>
+
+
+The figures do not surround you.
+
+
+<span class="glow">They include you.</span>
+
+
+For a moment —
+
+
+<span class="glow-strong glow-breath">you are one of them.</span>
+
+
+A line.
+
+A movement.
+
+A trace without weight.
+
+
+No beginning.
+
+No end.
+
+
+—
+
+
+<span class="whisper">Silence.</span>
+
+
+Immediate.
+
+
+Absolute.
+
+
+The movement breaks.
+
+
+You are standing.
+
+
+The Sanctuary.
+
+
+Still.
+
+
+Empty.
+
+
+The walls hold their images again.
+
+
+<span class="whisper">As if nothing moved.</span>
+
+
+<span class="whisper">As if nothing happened.</span>
+
+
+But something remains.
+
+
+A space.
+
+
+A place where a figure was.
+
+
+<span class="glow-strong glow-breath">Your place.</span>
+
+
+Waiting.
+
+</div>
+
+[[Reflect on the whole journey]]
+
+[[Return to the entrance->Approach the paintings]]
+</div>
+
+
+
+:: Go to Sanctuary for rituals {"position":"75,1000","size":"100,100"}
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/山洞2.mp4" type="video/mp4">
+</video>
+<p class="whisper">The space opens —
+wider than expected,
+deeper than it should be.
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/幻视.mp4" type="video/mp4">
+</video>
+The air is still.</p>
+<div class="poetic">
+You enter the <span style="color:#fff; text-shadow: 0 0 8px #ffcc66;">Sanctuary</span>.
+
+<span class="glow-breath">The cave is waiting.</span>
+
+
+You do not hesitate.
+
+
+<span class="glow">The ritual begins.</span>
+
+
+You close your eyes.
+
+
+<span class="whisper">Darkness.</span>
+
+
+Then —
+
+
+<span class="glow-strong glow-breath">Light.</span>
+
+
+Not from outside.
+
+<span class="glow">From within.</span>
+
+
+Points emerge.
+
+Sharp,
+bright,
+unstable.
+
+
+They multiply.
+
+They connect.
+
+
+Lines become spirals.
+
+Spirals expand,
+layer upon layer,
+turning,
+folding,
+endless.
+
+
+You open your eyes.
+
+But it does not stop.
+
+
+The walls are no longer still.
+
+
+Figures move.
+
+Deer run across the stone,
+their bodies stretched in motion.
+
+Lines repeat,
+echo,
+transform.
+
+
+<span class="glow">The cave is no longer a place.</span>
+
+<span class="glow-strong glow-breath">It is a field of vision.</span>
+
+
+Everything pulses.
+
+Everything breathes.
+
+Everything is connected.
+
+
+You are not observing.
+
+
+<span class="glow-strong glow-breath">You are inside the image.</span>
+
+
+A distant understanding surfaces:
+
+
+These forms are not invented.
+
+<span class="glow">They are seen.</span>
+
+
+Patterns that appear
+when the mind crosses its own threshold.
+
+Spirals,
+grids,
+points of light —
+shared across places,
+across time,
+across bodies.
+
+
+<span class="glow-breath">The painters saw them too.</span>
+
+
+The vision intensifies.
+
+
+Too much.
+
+
+Too bright.
+
+
+Too close.
+
+
+—
+
+
+Then
+
+
+slowly
+
+
+it recedes.
+
+
+The spirals dissolve.
+
+The figures slow.
+
+The movement fades.
+
+
+Darkness returns.
+
+
+<span class="whisper">Silence.</span>
+
+
+You are still here.
+
+
+The <span style="color:#fff; text-shadow: 0 0 8px #ffcc66;">Sanctuary</span>.
+
+
+The walls are still.
+
+But something has changed.
+
+
+You look down.
+
+A mark on the surface.
+
+A handprint.
+
+
+<span class="glow-strong glow-breath">Yours.</span>
+
+</div>
+
+[[Continue]]
+
+</div>
+
+
+:: Go to the red hall {"position":"700,475","size":"100,100"}
+You move deeper into the cave.
+
+The darkness thickens.
+
+<span class="glow-strong glow-breath">A faint red glow begins to emerge ahead of you —
+not light, exactly,
+but something suspended in the air.
+</span>
+You step forward.
+
+The corridor opens.
+
+The <span style="color:#ff4d4d; text-shadow: 0 0 6px #ff0000;">Red Hall</span>.
+
+
+The walls are covered.
+
+<span class="glow-strong glow-breath">Figures appear in the dim light:
+two female bodies,
+a hunter,
+deer in motion.
+</span>
+They are not still.
+
+The lines tremble slightly,
+as if the pigment were not yet dry.
+
+
+Water covers parts of the ground.
+The surface reflects the walls —
+doubling the images,
+blurring what is real and what is not.
+
+
+The silence is almost complete.
+
+Only drops of water,
+and your own breath —
+louder than it should be.
+
+Somewhere deeper inside,
+a slow rhythm continues.
+
+Closer now.
+
+
+A voice, distant but calm:
+
+<span class="glow-strong glow-breath">"This is the</span> <span style="color:#ff4d4d; text-shadow: 0 0 6px #ff0000;">Red Hall</span>.
+<span class="glow-strong glow-breath">One of the central spaces of the cave.</span>
+
+<span class="glow-strong glow-breath">The figures you see are among the oldest known
+prehistoric paintings in this region.
+
+The deer appear again and again.
+They are not only animals,
+but signs of movement,
+of passage,
+of transformation."</span>
+
+<span class="glow-strong glow-breath">You feel you are not meant to simply observe.</span>
+
+
+[[Approach the paintings]]
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/鹿3.mp4" type="video/mp4">
+</video>
+
+
+:: Healing {"position":"675,1450","size":"100,100"}
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/女萨满.mp4" type="video/mp4">
+</video>
+<p class="whisper">quiet relief.......</p>
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/山洞2.mp4" type="video/mp4">
+</video>
+<div class="poetic">
+<span class="glow">You do not move.</span>
+The shaman begins.
+
+
+The gesture is slow,
+but firm.
+
+Repeated,
+again and again.
+
+
+Hands over the object you brought.
+
+Breath steady.
+
+<span class="glow-breath">Rhythm building.</span>
+
+
+The cave responds.
+
+
+<span class="whisper">Not with sound.</span>
+
+<span class="glow">With movement.</span>
+
+
+The walls begin to shift.
+
+Subtly at first.
+
+
+Then —
+
+
+<span class="glow-strong glow-breath">something appears.</span>
+
+
+<span class="whisper">Not patterns this time.</span>
+
+<span class="whisper">Not spirals.</span>
+
+
+<span class="glow">Images.</span>
+
+
+A body standing,
+unbroken.
+
+A field opening,
+green and full.
+
+A path extending,
+clear,
+without danger.
+
+
+They do not stay.
+
+They overlap.
+
+They dissolve into one another.
+
+
+Your request —
+reflected,
+refracted,
+transformed.
+
+
+You do not know if it is a promise.
+
+<span class="whisper">Or a possibility.</span>
+
+
+<span class="glow-strong glow-breath">But it is enough.</span>
+
+
+The light softens.
+
+The movement fades.
+
+
+The cave returns.
+
+
+The shaman lowers their hands.
+
+
+They look at you.
+
+Then —
+a small gesture.
+
+<span class="glow">A bow of the head.</span>
+
+
+<span class="glow-breath">It is accepted.</span>
+
+
+You feel it
+before you understand it.
+
+
+The place is quiet again.
+
+
+On the wall,
+an empty space.
+
+
+<span class="glow-strong glow-breath">Waiting.</span>
+
+</div>
+
+[[Reflect on the whole journey]]
+
+[[Return to the entrance->Approach the paintings]]
+</div>
+
+
+
+:: I will try drawing after the journey {"position":"375,1875","size":"100,100"}
+<div class="map2">
+<p class="whisper">The cave fades.</p>
+<div class="poetic">
+<span class="whisper">Not suddenly.</span>
+
+<span class="whisper">Gradually.</span>
+
+
+The walls dissolve.
+
+The ceiling disappears.
+
+
+<span class="glow">You are no longer inside.</span>
+
+
+A space remains.
+
+Undefined.
+
+Without distance.
+
+
+Then —
+
+
+points of light.
+
+
+One.
+
+Then another.
+
+Then many.
+
+
+They arrange themselves.
+
+
+<span class="glow-breath">A map.</span>
+
+
+<span class="whisper">Not drawn.</span>
+
+<span class="glow">Revealed.</span>
+
+
+Each light marks a place.
+
+
+You look.
+
+
+A spiral.
+
+Elsewhere.
+
+
+A zigzag.
+
+Again.
+
+
+Dots.
+
+Concentric lines.
+
+
+Different lands.
+
+Different times.
+
+
+<span class="glow-strong glow-breath">The same forms.</span>
+
+
+They did not meet.
+
+They did not speak.
+
+
+And yet —
+
+
+<span class="glow">they saw the same things.</span>
+
+
+Fifteen thousand years ago,
+across continents,
+human beings drew these patterns.
+
+
+<span class="whisper">Not as symbols.</span>
+
+<span class="glow">But as perception.</span>
+
+
+What you saw
+was not theirs alone.
+
+
+<span class="glow-strong glow-breath">It belongs to the structure
+of seeing itself.</span>
+
+
+—
+
+
+The map fades.
+
+
+Your drawing appears.
+
+
+Then others.
+
+
+Layered.
+
+Different hands.
+
+Different places.
+
+
+<span class="glow">The same attempt.</span>
+
+
+To give form
+to something that cannot be fully seen.
+
+
+The space remains quiet.
+
+
+The sound of wind returns.
+
+The distant sea.
+
+
+<span class="glow-breath">You are here again.</span>
+
+</div>
+
+[[Remove the headset]]
+
+</div>
+
+
+:: Intro {"position":"425,25","size":"100,100"}
+<div style="
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4vh 8vw;
+  box-sizing: border-box;
+  color: #f5f1e8;
+  background: linear-gradient(180deg, #1a1020 0%, #24152d 45%, #120d16 100%);
+  font-family: Georgia, 'Times New Roman', serif;
+">
+
+<!-- 🎥 视频背景 -->
+  <video autoplay muted loop playsinline style="
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    filter: brightness(0.4);
+  ">
+    <source src="https://ChenQingHa.github.io/grotta-vr-media/女萨满.mp4" type="video/mp4">
+  </video>
+  
+  <div style="
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    color: #fffaf2;
+  ">
+    Grotta dei Cervi VR
+  </div>
+
+  <div style="
+    font-size: 1rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #d7c9b2;
+    margin-bottom: 2.2rem;
+  ">
+    Digital Heritage and Multimedia · A.Y. 2024/2025
+  </div>
+
+  <div style="
+    width: 72px;
+    height: 2px;
+    background: #8b2f2f;
+    margin-bottom: 2rem;
+  "></div>
+
+  <div style="
+    max-width: 760px;
+    font-size: 1.08rem;
+    line-height: 1.8;
+    color: #efe6d8;
+    margin-bottom: 2.2rem;
+  ">
+    An immersive narrative journey into one of Europe’s most important prehistoric painted caves, now inaccessible to the public.
+    <br><br>
+    This storyboard unfolds in three movements:
+    a shared threshold, a character-driven path, and a final convergence where every trace returns to the sanctuary.
+  </div>
+
+  <div style="
+    font-size: 0.98rem;
+    color: #c8bca9;
+    margin-bottom: 2.6rem;
+  ">
+    Claudia · River · Laura
+  </div>
+
+  <div style="
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    border: 1px solid #b58d63;
+    border-radius: 999px;
+    font-size: 1rem;
+    letter-spacing: 0.06em;
+    background: rgba(255,255,255,0.03);
+  ">
+    [[Enter the experience]]
+  </div>
+
+</div>
+
+
+:: Meet the devotee {"position":"25,675","size":"100,100"}
+<div class="symbol3">
+<p class="whisper">The spirals fade.
+
+The space opens.</p>
+<div class="poetic">
+<span class="glow">You move forward.</span>
+
+<span class="whisper">A threshold.</span>
+
+<span class="whisper">A place before something greater.</span>
+
+
+<span class="glow-breath">You are no longer alone.</span>
+
+
+A figure emerges from the darkness.
+
+
+<span class="whisper">Not suddenly —</span>
+
+but as if they had always been there,
+waiting to be seen.
+
+
+Their body is simple,
+
+almost drawn rather than formed.
+
+
+Lines instead of flesh.
+
+Shapes instead of features.
+
+
+And yet —
+
+
+<span class="glow">undeniably human.</span>
+
+
+They approach you.
+
+
+<span class="whisper">Hesitation in every step.</span>
+
+</div>
+
+<div class="intruder-voice">
+"My daughter is ill.
+
+I have come to ask...
+
+what should I offer?"
+</div>
+
+<div class="poetic">
+
+They look at you
+as if you already know the answer.
+
+
+<span class="glow">You feel the weight of your role.</span>
+
+
+<span class="whisper">This is not a question of truth.</span>
+
+
+<span class="glow-strong glow-breath">But of choice.</span>
+
+
+What will you advise?
+
+</div>
+
+
+[[Offer the marked clay — patterns pressed into the surface->Pintaderas]]
+
+[[Offer the shaped vessel — a body transformed into form->Ceramic Offering]]
+
+[[Offer the black stone — sharp, rare, carried from afar->Obsidian Offering]]
+
+</div>
+
+
+:: Obsidian Offering {"position":"275,650","size":"100,100"}
+Price is taken now....
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/巫术1.mp4" type="video/mp4">
+</video>
+
+
+
+
+
+
+[[Go to Sanctuary for rituals]] 
+
+
+:: Painting 1 {"position":"550,325","size":"100,100"}
+<div style="text-align:center;">
+  <img src="https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/跳舞.jpg" style="
+    width: 80vw;
+    height: auto;
+    display: block;
+    margin: 5vh auto;
+    filter: brightness(0.7) contrast(1.1);
+    box-shadow: 0 0 40px rgba(255,60,20,0.6);
+  ">
+</div>
+
+[[Go to the red hall]] 
+
+[[Watch another painting->Approach the cave]]
+
+
+:: Painting 2 {"position":"700,325","size":"100,100"}
+<div style="text-align:center;">
+  <img src="https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/符号3.jpg" style="
+    width: 80vw;
+    height: auto;
+    display: block;
+    margin: 5vh auto;
+    filter: brightness(0.7) contrast(1.1);
+    box-shadow: 0 0 40px rgba(255,60,20,0.6);
+  ">
+</div>
+[[Go to the red hall]] 
+
+[[Watch another painting->Approach the cave]]
+
+
+:: Painting 3 {"position":"850,325","size":"100,100"}
+<div style="text-align:center;">
+  <img src="https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/符号4.jpg" style="
+    width: 80vw;
+    height: auto;
+    display: block;
+    margin: 5vh auto;
+    filter: brightness(0.7) contrast(1.1);
+    box-shadow: 0 0 40px rgba(255,60,20,0.6);
+  ">
+</div>
+[[Go to the red hall]] 
+
+[[Watch another painting->Approach the cave]]
+
+
+:: Painting 4 {"position":"1025,325","size":"100,100"}
+<div style="text-align:center;">
+  <img src="https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/符号2.jpg" style="
+    width: 80vw;
+    height: auto;
+    display: block;
+    margin: 5vh auto;
+    filter: brightness(0.7) contrast(1.1);
+    box-shadow: 0 0 40px rgba(255,60,20,0.6);
+  ">
+</div>
+[[Go to the red hall]] 
+
+[[Watch another painting->Approach the cave]]
+
+
+:: Pintadera {"position":"825,1175","size":"100,100"}
+<div class="phosphene2">
+<p class="whisper">You chose to expose in the universe...</p>
+<div class="poetic">
+<span class="glow">You step forward.</span>
+The shaman is already there.
+
+
+They do not greet you.
+
+<span class="whisper">They observe.</span>
+
+
+You offer what you carry.
+
+
+They take it.
+
+
+Slowly.
+
+
+They turn it in their hands.
+
+Touch it.
+Smell it.
+
+
+Hold it up
+to the dim light of the cave.
+
+
+<span class="whisper">Nothing is said.</span>
+
+
+<span class="whisper">Not yet.</span>
+
+
+Then —
+
+
+<span class="glow-strong glow-breath">"What do you seek?"</span>
+
+
+The question does not echo.
+
+It remains close.
+
+
+Specific.
+
+Immediate.
+
+
+<span class="glow">Not a wish.</span>
+
+<span class="glow-strong glow-breath">A need.</span>
+
+
+<span class="glow-breath">What do you ask for?</span>
+
+</div>
+
+[[Healing]]
+
+[[Abundance]]
+
+[[Protection]]
+
+</div>
+
+
+:: Pintaderas {"position":"0,825","size":"100,100"}
+Price is taken now....
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/巫术1.mp4" type="video/mp4">
+</video>
+
+
+
+
+
+
+[[Go to Sanctuary for rituals]] 
+
+
+:: Prepare rituals {"position":"225,325","size":"100,100"}
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/幻视.mp4" type="video/mp4">
+</video>
+<span class="glow-strong glow-breath">You move away from the</span> <span style="color:#ff4d4d; text-shadow: 0 0 6px #ff0000;">Red Hall</span>.
+
+<span class="glow-strong glow-breath">The space narrows.
+
+The air grows still.
+
+
+The walls change.
+
+The figures dissolve into patterns —
+spirals,
+lines,
+repetitions without end.
+
+They surround you.
+
+
+You are alone.
+
+No voice follows you here.
+
+Only your breath,
+and the slow rhythm of water falling somewhere in the dark.
+
+
+The spirals begin to pulse.
+
+Not visibly at first.
+
+Then — unmistakably —
+they follow your breathing.
+
+
+You raise your hand.
+
+As your fingers touch the wall,
+the surface seems to respond.
+
+A fragment appears:
+
+A body turning.
+A line repeating.
+A movement without beginning or end.
+
+
+You understand.
+
+These are not images.
+
+They are traces of something seen
+with closed eyes.
+
+
+A thought emerges:
+
+Close your eyes for a moment.
+
+Press your fingers lightly against them.
+
+
+Do you see shapes?
+
+
+They did too.
+
+
+The cave is not showing you something.
+
+It is teaching you how to see.
+
+
+You are here for a purpose.
+
+A ritual must be prepared.
+
+
+What will you invoke?</span>
+
+
+[[A ritual of hunting]]
+
+[[A ritual of fertility]]
+
+[[A ritual of healing]]
+
+
+:: Protection {"position":"1200,1400","size":"100,100"}
+<div class="symbol7">
+<p class="whisper">You quietly accept  it.....</p>
+<div class="poetic">
+
+<span class="glow">You do not move.</span>
+
+
+The shaman begins.
+
+
+The gesture is slow,
+but firm.
+
+Repeated,
+again and again.
+
+
+Hands over the object you brought.
+
+
+<span class="glow-breath">Breath steady.</span>
+
+<span class="glow-breath">Rhythm building.</span>
+
+
+The cave responds.
+
+
+<span class="whisper">Not with sound.</span>
+
+<span class="glow">With movement.</span>
+
+
+The walls begin to shift.
+
+Subtly at first.
+
+
+Then —
+
+
+<span class="glow">something appears.</span>
+
+
+<span class="whisper">Not patterns this time.</span>
+
+<span class="whisper">Not spirals.</span>
+
+
+<span class="glow">Images.</span>
+
+
+A body standing,
+unbroken.
+
+A field opening,
+green and full.
+
+A path extending,
+clear,
+without danger.
+
+
+They do not stay.
+
+They overlap.
+
+They dissolve into one another.
+
+
+Your request —
+reflected,
+refracted,
+transformed.
+
+
+You do not know if it is a promise.
+
+<span class="whisper">Or a possibility.</span>
+
+
+<span class="glow-strong glow-breath">But it is enough.</span>
+
+
+<span class="glow-breath">The light softens.</span>
+
+The movement fades.
+
+
+The cave returns.
+
+
+The shaman lowers their hands.
+
+
+They look at you.
+
+
+Then —
+a small gesture.
+
+<span class="glow">A bow of the head.</span>
+
+
+<span class="glow-strong glow-breath">It is accepted.</span>
+
+
+You feel it
+before you understand it.
+
+
+The place is quiet again.
+
+
+On the wall,
+an empty space.
+
+
+<span class="glow-strong glow-breath">Waiting.</span>
+
+</div>
+
+[[Reflect on the whole journey]]
+
+[[Return to the entrance->Approach the paintings]]
+</div>
+
+
+
+:: Red Ochre {"position":"1025,1150","size":"100,100"}
+<div class="symbol3">
+<p class="whisper">Tough decision.....</p>
+<div class="poetic">
+<span class="glow">You step forward.</span>
+The shaman is already there.
+
+
+They do not greet you.
+
+<span class="whisper">They observe.</span>
+
+
+You offer what you carry.
+
+
+They take it.
+
+
+Slowly.
+
+
+They turn it in their hands.
+
+Touch it.
+Smell it.
+
+
+Hold it up
+to the dim light of the cave.
+
+
+<span class="whisper">Nothing is said.</span>
+
+
+<span class="whisper">Not yet.</span>
+
+
+Then —
+
+
+<span class="glow-strong glow-breath">"What do you seek?"</span>
+
+
+The question does not echo.
+
+It remains close.
+
+
+Specific.
+
+Immediate.
+
+
+<span class="glow">Not a wish.</span>
+
+<span class="glow-strong glow-breath">A need.</span>
+
+
+<span class="glow-breath">What do you ask for?</span>
+
+</div>
+
+[[Healing]]
+
+[[Abundance]]
+
+[[Protection]]
+
+</div>
+
+
+:: Reflect on the whole journey {"position":"525,1800","size":"100,100"}
+<p class="whisper">reflect and recreat...</p>
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/古堡.mp4" type="video/mp4">
+</video>
+<div class="poetic">
+The space is empty.
+
+Not completely.
+
+But enough.
+
+
+A question appears:
+
+
+<span class="glow-strong glow-breath">If you were a painter here —</span>
+
+<span class="glow-strong glow-breath">what would you leave?</span>
+
+
+Today’s concept:
+
+
+<span class="glow">A journey.</span>
+
+
+Not a place.
+
+Not a path.
+
+
+A concept.
+
+
+You have little time.
+
+
+<span class="whisper">No words.</span>
+
+<span class="whisper">No figures.</span>
+
+
+Only form.
+
+Only movement.
+
+Only trace.
+
+
+The same colours.
+
+The same limits.
+
+
+<span class="glow-strong glow-breath">What you draw</span>
+will remain.
+
+
+With others.
+
+From other places.
+
+From other times.
+
+
+<span class="glow-strong glow-breath">Do we still draw the same way?</span>
+
+</div>
+
+[[I will try drawing after the journey]]
+
+</div>
+
+
+:: Remove the headset {"position":"525,2000","size":"100,100"}
+
+
+
+<h2 class="glow-strong glow-breath">You have left the cave.</h2>
+<div class="poetic">
+But the cave has not left you.
+
+<span class="whisper">Some images do not fade.</span>
+
+They remain —
+
+not on the wall,
+
+but within the way you see.
+
+<span class="glow">You have walked where others once marked their presence.</span>
+
+Now,
+
+<span class="glow-breath">you carry that trace forward.</span>
+
+—
+
+The wind outside is different.
+
+Or perhaps
+
+<span class="glow-strong glow-breath">you are.</span>
+
+</div>
+<br>
+<span class="small whisper">Grotta dei Cervi VR Experience</span><br>
+<span class="small hidden-soft">Digital Heritage & Multimedia</span>
+</div>
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/跳舞.mp4" type="video/mp4">
+</video>
+
+
+:: Shaman {"position":"400,275","size":"100,100"}
+<div class="shaman">
+
+<p>You step inside.</p>
+
+<p>The cave does not feel empty.</p>
+
+<p>The walls breathe with traces of something older than memory.</p>
+
+<p>Symbols surround you.<br>
+Not drawn — but left behind.</p>
+
+<p>One of them pulses faintly.</p>
+
+<p>[[Prepare rituals]]</p>
+
+</div>
+
+
+:: Speak before refusing {"position":"537.5,1200","size":"100,100"}
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/巫术1.mp4" type="video/mp4">
+</video>
+
+
+
+They don't listen and make up their mind entering, you have a fight with them anyway and get hurt.
+
+
+
+
+[[Ask shaman for healing]]
+
+
+:: This is the one {"position":"675,1125","size":"100,100"}
+<p class="whisper">It's another world.....</p>
+<video class="video-bg" autoplay loop muted playsinline>
+  <source src="https://ChenQingHa.github.io/grotta-vr-media/幻视.mp4" type="video/mp4">
+</video>
+
+<div class="poetic">
+
+You are not alone anymore.
+
+
+<span class="glow">The shaman is already there.</span>
+
+
+They do not ask which figure you chose.
+
+<span class="whisper">They already know.</span>
+
+
+Or perhaps it does not matter.
+
+
+They look at you.
+
+Not long.
+
+<span class="glow-breath">Just enough.</span>
+
+
+Then they begin.
+
+
+Their hands move slowly.
+
+Measured.
+
+
+They pick up an object —
+worn,
+handled many times before.
+
+
+They place it in your hands.
+
+
+<span class="glow">It is heavier than expected.</span>
+
+
+You are not told what it is.
+
+Only how to hold it.
+
+
+The shaman raises their hand.
+
+You follow.
+
+
+<span class="glow-strong glow-breath">A gesture.</span>
+
+Simple.
+
+But precise.
+
+
+You repeat it.
+
+
+Not perfectly.
+
+Not exactly.
+
+
+<span class="whisper">It does not matter.</span>
+
+
+This is not a test.
+
+
+<span class="glow-strong glow-breath">This is a passage.</span>
+
+
+A threshold between what remains
+and what continues.
+
+
+The shaman lowers their hand.
+
+
+You understand:
+
+
+<span class="glow-strong glow-breath">You are ready.</span>
+
+</div>
+
+[[Enter the rite]]
+
+</div>
+
+
+:: Turn toward the noise {"position":"475,1075","size":"100,100"}
+<div class="phosphene">
+
+<p class="whisper">sh...sh...sh....</p>
+
+<div class="poetic">
+
+A figure emerges from the darkness.
+
+<span class="whisper">Slowly.</span>
+
+<span class="whisper">Carefully.</span>
+
+
+Not a hunter.
+
+Not a member of your people.
+
+
+They stop at a distance.
+
+</div>
+
+<div class="intruder-voice">
+"I need to enter."
+</div>
+
+<div class="poetic">
+
+They take a step forward.
+
+
+<span class="glow">You move first.</span>
+
+
+They freeze.
+
+</div>
+
+<div class="intruder-voice">
+"I came from far away," they say.<br>
+"I lost someone.<br>
+I was told there is a place here —<br>
+someone who can help."
+</div>
+
+<div class="poetic">
+
+The fire crackles behind you.
+
+The cave remains silent.
+
+
+<span class="glow glow-breath">This place is not yours to give.</span>
+
+But neither is their desperation false.
+
+
+What do you do?
+
+</div>
+
+[[Drive them back by force]]
+
+[[Speak before refusing]]
+
+</div>
+
+
+:: Warrior {"position":"475,950","size":"100,100"}
+<div class="warrior">
+<div class="poetic">
+You do not enter the cave.
+
+You stand before it.
+
+
+Night has fallen.
+
+The sea is no longer visible —
+only a faint line where darkness meets darkness.
+
+
+A fire burns beside you.
+
+Its light flickers across the rock,
+revealing fragments of painted forms
+that disappear as quickly as they emerge.
+
+
+The wind moves through the trees behind you.
+
+Unsteady.
+Watching.
+
+
+This place is not open.
+
+<span class="glow-strong">It must be kept.</span>
+
+
+You are not here to understand.
+
+<span class="glow-strong glow-breath">You are here to protect.</span>
+
+
+Something shifts in the distance.
+
+A sound —
+not of wind.
+
+
+<span class="glow-intense">Movement.</span>
+
+</div>
+
+[[Turn toward the noise]]
+
+</div>
+
+
+:: StoryStylesheet [stylesheet]
+/* =========================
+   GROTTA DEI CERVI VR THEME
+   Twine / Harlowe Stylesheet
+   ========================= */
+
+/* ===== Global page ===== */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -10;
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+tw-story {
+  position: relative;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.78);
+}
+
+tw-passage {
+  position: relative;
+  z-index: 10;
+}
+
+/* Harlowe main story area */
+tw-story {
+  background:
+    radial-gradient(circle at top center, rgba(120, 32, 12, 0.15), transparent 40%),
+    linear-gradient(to bottom, #0a0a0a 0%, #050505 100%);
+  color: #f2eee8;
+  max-width: 900px;
+  margin: 2.5rem auto;
+  padding: 2.2rem 2.4rem 3rem 2.4rem;
+  border: 1px solid rgba(173, 96, 52, 0.18);
+  box-shadow:
+    0 0 30px rgba(0, 0, 0, 0.55),
+    0 0 10px rgba(120, 40, 20, 0.12);
+  border-radius: 10px;
+}
+
+/* Passage block */
+tw-passage {
+  font-size: 1.08rem;
+  line-height: 1.95;
+}
+
+/* Remove harsh default styles if any */
+tw-sidebar {
+  display: none;
+}
+
+/* ===== Headings ===== */
+h1, h2, h3 {
+  font-family: "Georgia", serif;
+  color: #d26a35;
+  letter-spacing: 0.5px;
+  margin-top: 0.4em;
+  margin-bottom: 0.6em;
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(210, 106, 53, 0.3);
+  padding-bottom: 0.35rem;
+}
+
+h2 {
+  font-size: 1.45rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+  color: #c9b39c;
+}
+
+/* ===== Paragraphs and emphasis ===== */
+p {
+  margin: 0.8rem 0;
+}
+
+strong, b {
+  color: #f4c7a1;
+  font-weight: 700;
+}
+
+em, i {
+  color: #d7c8b5;
+  font-style: italic;
+}
+
+/* ===== Links / choices ===== */
+tw-link, .enchantment-link {
+  color: #d26a35;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(210, 106, 53, 0.35);
+  transition: all 0.25s ease;
+}
+
+tw-link:hover, .enchantment-link:hover {
+  color: #ffd3b6;
+  border-bottom-color: rgba(255, 211, 182, 0.8);
+  text-shadow: 0 0 8px rgba(210, 106, 53, 0.55);
+}
+
+tw-link:visited {
+  color: #c4875e;
+}
+
+/* ===== Horizontal rule ===== */
+hr {
+  border: none;
+  border-top: 1px solid rgba(220, 180, 145, 0.16);
+  margin: 1.5rem 0;
+}
+
+/* ===== Blockquote / ancient voice ===== */
+blockquote {
+  margin: 1.2rem 0;
+  padding: 0.9rem 1.1rem;
+  border-left: 3px solid rgba(210, 106, 53, 0.55);
+  background: rgba(255, 255, 255, 0.03);
+  color: #e3d8ca;
+  font-style: italic;
+}
+
+/* ===== Images ===== */
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+  margin: 1rem auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.35);
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+/* ===== Utility classes ===== */
+.ritual {
+  color: #d26a35;
+  font-weight: 700;
+  text-shadow: 0 0 6px rgba(210, 106, 53, 0.45);
+}
+
+.glow {
+  color: #ffdfc6;
+  text-shadow:
+    0 0 4px rgba(255, 180, 120, 0.35),
+    0 0 10px rgba(210, 106, 53, 0.45);
+}
+
+.whisper {
+  color: #c9b39c;
+  font-style: italic;
+  opacity: 0.82;
+}
+
+.stone {
+  color: #ddd4ca;
+  background: rgba(255,255,255,0.035);
+  padding: 0.12em 0.35em;
+  border-radius: 4px;
+}
+
+.vision {
+  color: #ffd7bf;
+  text-shadow:
+    0 0 5px rgba(255, 180, 120, 0.28),
+    0 0 15px rgba(210, 106, 53, 0.38);
+  animation: pulseVision 3.2s ease-in-out infinite;
+}
+
+.warning {
+  color: #ffbf9f;
+  background: rgba(140, 35, 15, 0.18);
+  border-left: 3px solid rgba(210, 106, 53, 0.7);
+  padding: 0.8rem 1rem;
+  margin: 1rem 0;
+  border-radius: 6px;
+}
+
+.panel-note {
+  font-size: 0.95rem;
+  color: #c4b7a8;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(210,106,53,0.12);
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.small {
+  font-size: 0.92rem;
+}
+
+.big {
+  font-size: 1.2rem;
+}
+
+.spaced {
+  letter-spacing: 1.2px;
+}
+
+.hidden-soft {
+  opacity: 0.7;
+}
+.glow-breath {
+  animation: glowPulse 2.5s ease-in-out infinite alternate;
+}
+
+.poetic {
+  white-space: pre-line;
+  line-height: 1.9;
+}
+
+.intruder-voice {
+  color: #ffd3b6;
+  font-style: italic;
+  text-shadow: 0 0 8px rgba(210,106,53,0.45);
+  border-left: 3px solid rgba(210,106,53,0.6);
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+
+.shaman {
+  background: 
+    linear-gradient(rgba(20,0,0,0.7), rgba(0,0,0,0.9)),
+    url("https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/跳舞.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.symbol5 {
+  background: 
+    linear-gradient(rgba(20,0,0,0.7), rgba(0,0,0,0.9)),
+    url("https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/符号2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.symbol6 {
+  background: 
+    linear-gradient(rgba(20,0,0,0.7), rgba(0,0,0,0.9)),
+    url("https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/符号3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.symbol7 {
+  background: 
+    linear-gradient(rgba(20,0,0,0.7), rgba(0,0,0,0.9)),
+    url("https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/符号4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.phosphene2 {
+  background: 
+    linear-gradient(rgba(20,0,0,0.7), rgba(0,0,0,0.9)),
+    url("https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/幻视.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.map2 {
+  background: 
+    linear-gradient(rgba(20,0,0,0.7), rgba(0,0,0,0.9)),
+    url("https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/map2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.handprint2 {
+  background: 
+    linear-gradient(rgba(20,0,0,0.7), rgba(0,0,0,0.9)),
+    url("https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/手.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.warrior {
+  background:
+    linear-gradient(rgba(0,0,20,0.7), rgba(0,0,0,0.95)),
+    url("https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/猎鹿.jpg");
+
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px;
+  color: #f5f1e8;
+}
+
+.phosphene {
+  background:
+    linear-gradient(rgba(0,0,20,0.7), rgba(0,0,0,0.95)),
+    url("https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/幻视.jpg");
+
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px;
+  color: #f5f1e8;
+}
+
+.handprint {
+  background:
+    linear-gradient(rgba(0,0,20,0.7), rgba(0,0,0,0.95)),
+    url("https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/手.jpg");
+
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px;
+  color: #f5f1e8;
+}
+
+.symbol2 {
+  background:
+    linear-gradient(rgba(0,0,20,0.7), rgba(0,0,0,0.95)),
+    url("https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/符号2.jpg");
+
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px;
+  color: #f5f1e8;
+}
+
+.symbol3 {
+  background:
+    linear-gradient(rgba(0,0,20,0.7), rgba(0,0,0,0.95)),
+    url("https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/符号3.jpg");
+
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px;
+  color: #f5f1e8;
+}
+
+.symbol4 {
+  background:
+    linear-gradient(rgba(0,0,20,0.7), rgba(0,0,0,0.95)),
+    url("https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/符号4.jpg");
+
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px;
+  color: #f5f1e8;
+}
+
+.deer {
+  background:
+    linear-gradient(rgba(0,0,20,0.7), rgba(0,0,0,0.95)),
+    url("https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/鹿2.jpg");
+
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px;
+  color: #f5f1e8;
+}
+
+.symbol {
+  background:
+    linear-gradient(rgba(0,0,20,0.7), rgba(0,0,0,0.95)),
+    url("https://raw.githubusercontent.com/ChenQingHa/grotta-vr-media/main/符号.jpg");
+
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px;
+  color: #f5f1e8;
+}
+@keyframes glowPulse {
+  from {
+    text-shadow:
+      0 0 4px rgba(255,200,100,0.5),
+      0 0 8px rgba(255,150,60,0.4);
+  }
+  to {
+    text-shadow:
+      0 0 10px rgba(255,220,150,0.9),
+      0 0 20px rgba(255,140,50,0.7);
+  }
+}
+/* ===== Scene color variations ===== */
+.common-scene {
+  border-left: 3px solid rgba(87, 63, 125, 0.7);
+  padding-left: 0.8rem;
+}
+
+.character-scene {
+  border-left: 3px solid rgba(210, 106, 53, 0.75);
+  padding-left: 0.8rem;
+}
+
+.final-scene {
+  border-left: 3px solid rgba(74, 126, 91, 0.7);
+  padding-left: 0.8rem;
+}
+
+
+/* ===== Simple ambient animation ===== */
+@keyframes pulseVision {
+  0% {
+    text-shadow:
+      0 0 3px rgba(255, 180, 120, 0.2),
+      0 0 8px rgba(210, 106, 53, 0.25);
+  }
+  50% {
+    text-shadow:
+      0 0 8px rgba(255, 180, 120, 0.45),
+      0 0 18px rgba(210, 106, 53, 0.5);
+  }
+  100% {
+    text-shadow:
+      0 0 3px rgba(255, 180, 120, 0.2),
+      0 0 8px rgba(210, 106, 53, 0.25);
+  }
+}
+
+/* ===== Optional faint page breathing ===== */
+tw-story {
+  animation: caveBreath 10s ease-in-out infinite;
+}
+
+@keyframes caveBreath {
+  0% {
+    box-shadow:
+      0 0 30px rgba(0, 0, 0, 0.55),
+      0 0 10px rgba(120, 40, 20, 0.10);
+  }
+  50% {
+    box-shadow:
+      0 0 38px rgba(0, 0, 0, 0.62),
+      0 0 16px rgba(120, 40, 20, 0.16);
+  }
+  100% {
+    box-shadow:
+      0 0 30px rgba(0, 0, 0, 0.55),
+      0 0 10px rgba(120, 40, 20, 0.10);
+  }
+}
