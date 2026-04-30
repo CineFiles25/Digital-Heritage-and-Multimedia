@@ -3,33 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMD Website</title>
+    <title>[PROJECT TITLE] — Grotta dei Cervi VR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet">
     <style>
-        @font-face {
-            font-family: 'IM Fell English';
-            src: url('assets/fonts/IMFellEnglish-Regular.ttf') format('truetype');
-            font-style: normal;
-        }
-
-        @font-face {
-            font-family: 'IM Fell English';
-            src: url('assets/fonts/IMFellEnglish-Italic.ttf') format('truetype');
-            font-style: italic;
-        }
-
+        /* ── Reset ── */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
+        /* ── Base ── */
         body {
             min-height: 100vh;
             background-color: #C9B99A;
             position: relative;
-            font-family: 'IM Fell English', serif;
+            font-family: 'Cormorant Garamond', serif;
         }
 
+        /* ── Background pattern (same as Claudia's original) ── */
         #bg-pattern {
             position: fixed;
             inset: 0;
@@ -39,6 +33,7 @@
             background-repeat: repeat;
         }
 
+        /* ── Main column ── */
         .content {
             position: relative;
             z-index: 1;
@@ -52,6 +47,7 @@
             outline-offset: -12px;
         }
 
+        /* ── Nav ── */
         nav {
             display: flex;
             justify-content: center;
@@ -63,13 +59,14 @@
         nav a {
             color: #C9B99A;
             text-decoration: none;
-            font-family: 'IM Fell English', serif;
+            font-family: 'Cormorant Garamond', serif;
             font-size: 1rem;
-            letter-spacing: 0.05em;
+            letter-spacing: 0.1em;
             text-transform: uppercase;
             opacity: 0.85;
             padding: 0 24px;
             border-right: 2px solid rgba(28, 26, 23, 0.6);
+            font-weight: 500;
         }
 
         nav a:last-child {
@@ -79,20 +76,339 @@
         nav a:hover,
         nav a.active {
             opacity: 1;
-            font-weight: bold;
+            font-weight: 600;
         }
 
+        /* ── Page title ── */
         .page-title {
-            font-family: 'IM Fell English', serif;
+            font-family: 'Cormorant Garamond', serif;
             color: #C9B99A;
-            font-size: 2.2rem;
-            font-weight: normal;
-            letter-spacing: 0.08em;
+            font-size: 2.6rem;
+            font-weight: 300;
+            letter-spacing: 0.12em;
             text-align: center;
             margin-bottom: 36px;
             padding-bottom: 36px;
         }
 
+        /* ── Hero ── */
+        .hero {
+            text-align: center;
+            padding-bottom: 48px;
+            margin-bottom: 52px;
+            border-bottom: 1px solid rgba(201, 185, 154, 0.25);
+        }
+
+        .hero-eyebrow {
+            font-family: 'Cormorant Garamond', serif;
+            color: #C9B99A;
+            font-size: 0.9rem;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            opacity: 0.5;
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+
+        .hero-subtitle {
+            font-family: 'Cormorant Garamond', serif;
+            color: #C9B99A;
+            font-size: 1.25rem;
+            font-style: italic;
+            font-weight: 300;
+            opacity: 0.82;
+            max-width: 520px;
+            margin: 0 auto;
+            line-height: 1.75;
+        }
+
+        /* ── Section structure ── */
+        .section {
+            margin-bottom: 52px;
+        }
+
+        .section-title {
+            font-family: 'Cormorant Garamond', serif;
+            color: #C9B99A;
+            font-size: 0.85rem;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            opacity: 0.5;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(201, 185, 154, 0.2);
+            font-weight: 500;
+        }
+
+        .section-heading {
+            font-family: 'Cormorant Garamond', serif;
+            color: #C9B99A;
+            font-size: 1.8rem;
+            font-weight: 400;
+            margin-bottom: 18px;
+            line-height: 1.3;
+        }
+
+        .section-body {
+            font-family: 'Cormorant Garamond', serif;
+            color: #C9B99A;
+            font-size: 1.1rem;
+            line-height: 1.9;
+            opacity: 0.88;
+            font-weight: 300;
+        }
+
+        .section-body p + p {
+            margin-top: 14px;
+        }
+
+        .section-body em {
+            font-style: italic;
+            font-weight: 400;
+        }
+
+        /* ── Character cards ── */
+        .character-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 12px;
+            margin-top: 28px;
+        }
+
+        .character-card {
+            border: 1px solid rgba(201, 185, 154, 0.3);
+            padding: 18px 10px;
+            text-align: center;
+        }
+
+        .character-name {
+            font-family: 'Cormorant Garamond', serif;
+            color: #C9B99A;
+            font-size: 0.9rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        .character-desc {
+            font-family: 'Cormorant Garamond', serif;
+            color: #C9B99A;
+            font-size: 0.85rem;
+            font-style: italic;
+            font-weight: 300;
+            opacity: 0.65;
+            line-height: 1.55;
+        }
+
+        /* ── Level cards ── */
+        .level-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin-top: 24px;
+        }
+
+        .level-card {
+            border: 1px solid rgba(201, 185, 154, 0.3);
+            padding: 22px 18px;
+        }
+
+        .level-name {
+            font-family: 'Cormorant Garamond', serif;
+            color: #C9B99A;
+            font-size: 1rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .level-meta {
+            font-family: 'Cormorant Garamond', serif;
+            color: #C9B99A;
+            font-size: 0.88rem;
+            font-style: italic;
+            font-weight: 300;
+            opacity: 0.62;
+            line-height: 1.6;
+        }
+
+        /* ── Concept blocks ── */
+        .concept-block {
+            border-left: 2px solid rgba(201, 185, 154, 0.35);
+            padding-left: 22px;
+            margin-bottom: 30px;
+        }
+
+        .concept-label {
+            font-family: 'Cormorant Garamond', serif;
+            color: #C9B99A;
+            font-size: 1rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        .concept-text {
+            font-family: 'Cormorant Garamond', serif;
+            color: #C9B99A;
+            font-size: 1.05rem;
+            line-height: 1.85;
+            opacity: 0.82;
+            font-style: italic;
+            font-weight: 300;
+        }
+
+        /* ── Journey bar ── */
+        .journey-bar {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0;
+            margin-top: 22px;
+        }
+
+        .journey-step {
+            font-family: 'Cormorant Garamond', serif;
+            color: #C9B99A;
+            font-size: 0.82rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            opacity: 0.72;
+            padding: 7px 14px;
+            border: 1px solid rgba(201, 185, 154, 0.25);
+            white-space: nowrap;
+            font-weight: 500;
+        }
+
+        .journey-arrow {
+            color: #C9B99A;
+            opacity: 0.3;
+            font-size: 0.85rem;
+            padding: 0 5px;
+        }
+
+        /* ── Team ── */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin-top: 22px;
+        }
+
+        .team-card {
+            border: 1px solid rgba(201, 185, 154, 0.3);
+            padding: 22px 18px;
+        }
+
+        .team-name {
+            font-family: 'Cormorant Garamond', serif;
+            color: #C9B99A;
+            font-size: 1.1rem;
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 400;
+        }
+
+        .team-role {
+            font-family: 'Cormorant Garamond', serif;
+            color: #C9B99A;
+            font-size: 0.85rem;
+            font-style: italic;
+            font-weight: 300;
+            opacity: 0.6;
+            line-height: 1.55;
+        }
+
+        /* ── Explore ── */
+        .explore-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin-top: 22px;
+        }
+
+        .explore-card {
+            border: 1px solid rgba(201, 185, 154, 0.3);
+            padding: 22px 18px;
+            text-decoration: none;
+            display: block;
+            transition: background-color 0.2s;
+        }
+
+        .explore-card:hover {
+            background-color: rgba(201, 185, 154, 0.07);
+        }
+
+        .explore-label {
+            font-family: 'Cormorant Garamond', serif;
+            color: #C9B99A;
+            font-size: 0.78rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            opacity: 0.48;
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .explore-name {
+            font-family: 'Cormorant Garamond', serif;
+            color: #C9B99A;
+            font-size: 1.05rem;
+            display: block;
+            font-weight: 400;
+        }
+
+        /* ── Sources ── */
+        .source-list {
+            list-style: none;
+            margin-top: 18px;
+        }
+
+        .source-list li {
+            font-family: 'Cormorant Garamond', serif;
+            color: #C9B99A;
+            font-size: 0.92rem;
+            font-style: italic;
+            font-weight: 300;
+            opacity: 0.7;
+            line-height: 1.75;
+            padding-left: 18px;
+            position: relative;
+            margin-bottom: 4px;
+        }
+
+        .source-list li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            opacity: 0.4;
+        }
+
+        .source-list a {
+            color: #C9B99A;
+            text-decoration: underline;
+            text-decoration-color: rgba(201, 185, 154, 0.35);
+        }
+
+        .source-list a:hover {
+            text-decoration-color: #C9B99A;
+        }
+
+        /* ── Divider ── */
+        .divider {
+            border: none;
+            border-top: 1px solid rgba(201, 185, 154, 0.18);
+            margin: 52px 0;
+        }
+
+        /* ── Footer ── */
         footer {
             margin-top: 60px;
             padding-top: 20px;
@@ -110,12 +426,13 @@
 
         .footer-meta {
             color: #C9B99A;
-            font-family: 'IM Fell English', serif;
-            font-size: 0.8rem;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.88rem;
             letter-spacing: 0.06em;
             opacity: 0.65;
             text-align: center;
             font-style: italic;
+            font-weight: 300;
         }
 
         .footer-meta a {
@@ -159,8 +476,8 @@
             transform: translateX(-50%);
             background-color: #1C1A17;
             color: #C9B99A;
-            font-family: 'IM Fell English', serif;
-            font-size: 0.8rem;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.85rem;
             letter-spacing: 0.05em;
             font-style: italic;
             padding: 6px 14px;
@@ -174,6 +491,38 @@
         .footer-icon-item:hover::after {
             opacity: 1;
         }
+
+        /* ── Responsive ── */
+        @media (max-width: 900px) {
+            .content {
+                width: 90%;
+                padding: 40px 28px;
+                margin: 20px auto;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .content {
+                width: 96%;
+                padding: 30px 18px;
+                margin: 10px auto;
+            }
+            .character-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .level-grid,
+            .team-grid,
+            .explore-grid {
+                grid-template-columns: 1fr;
+            }
+            nav a {
+                padding: 0 12px;
+                font-size: 0.85rem;
+            }
+            .page-title {
+                font-size: 1.9rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -181,39 +530,311 @@
     <div id="bg-pattern"></div>
 
     <div class="content">
-        <h1 class="page-title">[ Project Title ]</h1>
+
+        <!-- Page title -->
+        <h1 class="page-title">[ PROJECT TITLE ]</h1>
+
+        <!-- Navigation -->
         <nav>
             <a href="index.html" class="active">Home</a>
             <a href="design_brief.html">Design Brief</a>
             <a href="twine.html">Twine</a>
             <a href="figma.html">Figma</a>
         </nav>
-        <!-- page content goes here -->
+
+        <!-- ══ HERO ══ -->
+        <div class="hero">
+            <p class="hero-eyebrow">Castello Aragonese di Otranto &nbsp;·&nbsp; 2025</p>
+            <p class="hero-subtitle">
+                A virtual journey into one of Europe's most extraordinary Neolithic sanctuaries —
+                a cave sealed from the public for fifty years, now open to all.
+            </p>
+        </div>
+
+        <!-- ══ 01 — THE CAVE ══ -->
+        <div class="section">
+            <p class="section-title">01 — The Cave</p>
+            <h2 class="section-heading">The Grotta dei Cervi of Porto Badisco</h2>
+            <div class="section-body">
+                <p>
+                    Hidden beneath the cliffs of Porto Badisco, near Otranto in Puglia,
+                    the Grotta dei Cervi is one of the most significant Neolithic cave sanctuaries
+                    in the Mediterranean. Its walls and ceilings are covered in thousands of pictograms —
+                    painted in red ochre and black guano by communities who inhabited this coastline
+                    over six thousand years ago.
+                </p>
+                <p>
+                    The cave has been closed to the public since the 1970s. Human presence —
+                    breath, warmth, light — would destroy the fragile microclimate that preserves
+                    the paintings. Only researchers with special permits may enter.
+                    This experience gives you access no one else has.
+                </p>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- ══ 02 — THE EXPERIENCE ══ -->
+        <div class="section">
+            <p class="section-title">02 — The Experience</p>
+            <h2 class="section-heading">An immersive VR journey hosted at the Castello Aragonese</h2>
+            <div class="section-body">
+                <p>
+                    Visitors are welcomed into a dim room inside the Aragonese Castle of Otranto —
+                    the closest public institution to the cave, and home to an existing permanent
+                    exhibition on the Grotta dei Cervi. Four VR headsets transport them back
+                    six thousand years, to a summer sunset at the cave's western entrance.
+                </p>
+                <p>
+                    Before entering, a question appears: <em>Who are you?</em>
+                    Each visitor chooses a role — and from that moment, their experience is their own.
+                </p>
+            </div>
+
+            <div class="character-grid">
+                <div class="character-card">
+                    <span class="character-name">Shaman</span>
+                    <span class="character-desc">You perform the ritual. You carry the knowledge.</span>
+                </div>
+                <div class="character-card">
+                    <span class="character-name">Warrior</span>
+                    <span class="character-desc">Wounded. You seek the shaman's healing.</span>
+                </div>
+                <div class="character-card">
+                    <span class="character-name">Devotee I</span>
+                    <span class="character-desc">You come to speak with your ancestor.</span>
+                </div>
+                <div class="character-card">
+                    <span class="character-name">Devotee II</span>
+                    <span class="character-desc">You carry an offering. You want something.</span>
+                </div>
+                <div class="character-card">
+                    <span class="character-name">Dancer</span>
+                    <span class="character-desc">You don't choose to come. You are called.</span>
+                </div>
+            </div>
+
+            <div class="level-grid">
+                <div class="level-card">
+                    <span class="level-name">Kids</span>
+                    <span class="level-meta">~15 min · Ages 13–17<br>Lighter themes, accessible language</span>
+                </div>
+                <div class="level-card">
+                    <span class="level-name">Light</span>
+                    <span class="level-meta">~20 min · Condensed experience<br>Essential narrative arc</span>
+                </div>
+                <div class="level-card">
+                    <span class="level-name">Full</span>
+                    <span class="level-meta">~30 min · Complete depth<br>All educational content included</span>
+                </div>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- ══ 03 — CONCEPT-BASED DESIGN ══ -->
+        <div class="section">
+            <p class="section-title">03 — Concept-Based Design</p>
+            <h2 class="section-heading">What we want visitors to feel, understand, and question</h2>
+
+            <div class="concept-block" style="margin-top: 26px;">
+                <span class="concept-label">Curiosity</span>
+                <p class="concept-text">
+                    The cave is inaccessible. That inaccessibility is not an obstacle — it is the starting point.
+                    The experience is built on information gaps: you know something happened here,
+                    but the meaning is open. The pictograms do not explain themselves.
+                    Neither does the shaman.
+                </p>
+            </div>
+
+            <div class="concept-block">
+                <span class="concept-label">Embodiment</span>
+                <p class="concept-text">
+                    You do not observe the ritual. You are inside it.
+                    The choice of character determines not only what you see,
+                    but how the cave responds to your presence.
+                    The dancer does not walk through the cave — the cave calls the dancer.
+                </p>
+            </div>
+
+            <div class="concept-block">
+                <span class="concept-label">Storytelling</span>
+                <p class="concept-text">
+                    Five parallel narratives. One sanctuary. The branching structure mirrors
+                    the cave itself — many paths, one convergence point.
+                    Every character arrives at the same chamber with a different history
+                    written on their body.
+                </p>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- ══ 04 — USER JOURNEY ══ -->
+        <div class="section">
+            <p class="section-title">04 — User Journey</p>
+            <h2 class="section-heading">The emotional arc of the experience</h2>
+            <div class="journey-bar">
+                <span class="journey-step">Ignorance</span>
+                <span class="journey-arrow">→</span>
+                <span class="journey-step">Curiosity</span>
+                <span class="journey-arrow">→</span>
+                <span class="journey-step">Exploration</span>
+                <span class="journey-arrow">→</span>
+                <span class="journey-step">Discovery</span>
+                <span class="journey-arrow">→</span>
+                <span class="journey-step">Reflection</span>
+                <span class="journey-arrow">→</span>
+                <span class="journey-step">Caring</span>
+            </div>
+            <div class="section-body" style="margin-top: 22px;">
+                <p>
+                    The experience ends outside the VR. In a darkened room between the headset station
+                    and the exit, a reactive LED screen covers one wall. On it: the handprints of every
+                    visitor who has lived this experience before you — pale ochre silhouettes on near-black,
+                    scattered like the hand stencils on the ceiling of the Sanctuary.
+                    You press your hand to the screen. Your mark remains.
+                </p>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- ══ 05 — THE TEAM ══ -->
+        <div class="section">
+            <p class="section-title">05 — The Team</p>
+            <h2 class="section-heading">CineFiles25</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <span class="team-name">Laura Bortoli</span>
+                    <span class="team-role">Website · Storyboard · Low-fi wireframes</span>
+                </div>
+                <div class="team-card">
+                    <span class="team-name">Qinghao Chen</span>
+                    <span class="team-role">Twine narrative · Mid-fi prototype · Interpretation strategy</span>
+                </div>
+                <div class="team-card">
+                    <span class="team-name">Claudia Romanello</span>
+                    <span class="team-role">High-fi prototype · Presentation · Exhibition flow</span>
+                </div>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- ══ 06 — EXPLORE ══ -->
+        <div class="section">
+            <p class="section-title">06 — Explore</p>
+            <h2 class="section-heading">Project materials</h2>
+            <div class="explore-grid">
+                <a class="explore-card" href="twine.html">
+                    <span class="explore-label">Interactive narrative</span>
+                    <span class="explore-name">Twine Prototype →</span>
+                </a>
+                <a class="explore-card" href="figma.html">
+                    <span class="explore-label">Wireframes &amp; prototype</span>
+                    <span class="explore-name">Figma →</span>
+                </a>
+                <a class="explore-card" href="design_brief.html">
+                    <span class="explore-label">Full documentation</span>
+                    <span class="explore-name">Design Brief →</span>
+                </a>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- ══ 07 — SOURCES ══ -->
+        <div class="section">
+            <p class="section-title">07 — Sources &amp; Credits</p>
+            <ul class="source-list">
+                <li>
+                    <a href="https://www.preistoriainitalia.it/scheda/grotta-dei-cervi-porto-badisco-le/" target="_blank">
+                        Preistoria in Italia — Grotta dei Cervi, Porto Badisco
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.artepreistorica.com/wp-content/uploads/2010/01/The-Deer-Cave.pdf" target="_blank">
+                        Arte Preistorica — The Deer Cave (phosphenic art)
+                    </a>
+                </li>
+                <li>
+                    <a href="https://vimeo.com/407669569" target="_blank">
+                        Virginia Valzano — "Neolithic Mysteries: Revealing in 3D the Grotta dei Cervi" (2020)
+                    </a>
+                </li>
+                <li>
+                    <a href="https://library.oapen.org/handle/20.500.12657/62799" target="_blank">
+                        OAPEN — 3D documentation of the Grotta dei Cervi
+                    </a>
+                </li>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/Deer_Cave_(Otranto)" target="_blank">
+                        Wikipedia — Deer Cave (Otranto)
+                    </a>
+                </li>
+                <li>
+                    <a href="https://fondoambiente.it/luoghi/grotta-dei-cervi" target="_blank">
+                        Fondo Ambiente Italiano — Grotta dei Cervi
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.preistoriainitalia.it/2021/02/08/io-badisco-e-grotta-dei-cervi/" target="_blank">
+                        Maria Laura Leone — Io, Badisco e la Grotta dei Cervi (2021)
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.focus.it/cultura/storia/ecco-la-grotta-proibita" target="_blank">
+                        Focus — Ecco la grotta proibita
+                    </a>
+                </li>
+                <li>
+                    Background pattern illustrations by Claudia Romanello.
+                    Font: <a href="https://fonts.google.com/specimen/Cormorant+Garamond" target="_blank">Cormorant Garamond</a> (Google Fonts).
+                </li>
+            </ul>
+        </div>
+
+        <!-- ══ FOOTER ══ -->
         <footer>
             <div class="footer-icons">
                 <div class="footer-icon-item" data-name="Laura Bortoli">
-                    <a href="#" target="_blank" aria-label="Laura Bortoli"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+                    <a href="https://github.com/lauraaa13" target="_blank" aria-label="Laura Bortoli">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                        </svg>
+                    </a>
                 </div>
                 <div class="footer-icon-item" data-name="Qinghao Chen">
-                    <a href="#" target="_blank" aria-label="Qinghao Chen"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+                    <a href="https://github.com/ChenQingHa" target="_blank" aria-label="Qinghao Chen">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                        </svg>
+                    </a>
                 </div>
                 <div class="footer-icon-item" data-name="Claudia Romanello">
-                    <a href="https://github.com/claudiarom" target="_blank" aria-label="Claudia Romanello"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+                    <a href="https://github.com/claudiarom" target="_blank" aria-label="Claudia Romanello">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                        </svg>
+                    </a>
                 </div>
             </div>
-            <p class="footer-meta"><a href="https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue?codiceMateria=B5059&amp;annoAccademico=2024&amp;codiceCorso=9224&amp;single=True&amp;search=True" target="_blank">Digital Heritage &amp; Multimedia</a> &nbsp;·&nbsp; University of Bologna &nbsp;·&nbsp; 2024/25</p>
+            <p class="footer-meta">
+                <a href="https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/502364" target="_blank">Digital Heritage &amp; Multimedia</a>
+                &nbsp;·&nbsp; University of Bologna &nbsp;·&nbsp; 2024/25
+            </p>
         </footer>
-    </div>
 
+    </div><!-- end .content -->
+
+    <!-- Background pattern script (same as Claudia's original) -->
     <script>
         (function () {
-            const SIZE = 200; // each image rendered at this pixel size
-            const PAD  = 10;  // empty space around each image
+            const SIZE = 200;
+            const PAD  = 10;
             const CELL = SIZE + PAD * 2;
 
-            // The repeating tile is 2×2 cells:
-            // [ sciam ] [ picts ]
-            // [ picts ] [ sciam ]
             const canvas = document.createElement('canvas');
             canvas.width  = CELL * 2;
             canvas.height = CELL * 2;
@@ -225,10 +846,10 @@
 
             function draw() {
                 ctx.clearRect(0, 0, canvas.width, canvas.height);
-                ctx.drawImage(img1, PAD,        PAD,        SIZE, SIZE); // top-left
-                ctx.drawImage(img2, CELL + PAD, PAD,        SIZE, SIZE); // top-right
-                ctx.drawImage(img2, PAD,        CELL + PAD, SIZE, SIZE); // bottom-left
-                ctx.drawImage(img1, CELL + PAD, CELL + PAD, SIZE, SIZE); // bottom-right
+                ctx.drawImage(img1, PAD,        PAD,        SIZE, SIZE);
+                ctx.drawImage(img2, CELL + PAD, PAD,        SIZE, SIZE);
+                ctx.drawImage(img2, PAD,        CELL + PAD, SIZE, SIZE);
+                ctx.drawImage(img1, CELL + PAD, CELL + PAD, SIZE, SIZE);
 
                 const bg = document.getElementById('bg-pattern');
                 bg.style.backgroundImage = 'url(' + canvas.toDataURL('image/png') + ')';
