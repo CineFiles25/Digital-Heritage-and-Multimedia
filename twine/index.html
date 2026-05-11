@@ -3008,5 +3008,38 @@ h(Math,"asinh",xr.asinh,Math.asinh(1e300)===Infinity);h(Math,"atanh",xr.atanh,Ma
 ;require("harlowe")}());
 </script>
 
+<style>
+#harlowe-back-btn{position:fixed;top:20px;left:20px;z-index:99999;background:none;border:none;cursor:pointer;color:#fff;font-size:1.75rem;line-height:1;padding:4px 10px;display:none;opacity:.65;transition:opacity .2s;}
+#harlowe-back-btn:hover{opacity:1;}
+</style>
+<script>
+(function(){
+  var depth=0,undoing=false;
+  var btn=document.createElement('button');
+  btn.id='harlowe-back-btn';
+  btn.innerHTML='&#8592;';
+  btn.setAttribute('aria-label','Go back');
+  document.body.appendChild(btn);
+  btn.addEventListener('click',function(){
+    var u=document.querySelector('tw-icon[alt="Undo"]');
+    if(u){undoing=true;u.click();depth=Math.max(0,depth-1);btn.style.display=depth?'block':'none';}
+  });
+  document.addEventListener('DOMContentLoaded',function(){
+    var first=true;
+    var target=document.querySelector('tw-story')||document.body;
+    new MutationObserver(function(ms){
+      ms.forEach(function(m){
+        m.addedNodes.forEach(function(n){
+          if(n.nodeType===1&&n.tagName.toLowerCase()==='tw-passage'){
+            if(first){first=false;}
+            else if(undoing){undoing=false;}
+            else{depth++;btn.style.display='block';}
+          }
+        });
+      });
+    }).observe(target,{childList:true});
+  });
+})();
+</script>
 </body>
 </html>
